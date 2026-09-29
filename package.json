@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@maptiler/sdk": "^4.1.0",
+    "maplibre-gl": "^6.11.2"
+  }
+}

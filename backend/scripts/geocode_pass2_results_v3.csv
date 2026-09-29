@@ -1,0 +1,101 @@
+project_id,status,method,detail
+BR-MO/2017/22059,UNRESOLVED,,No validated locality/route
+BR-MO/2017/24065,DRY_RUN_RESOLVED,ROUTE,Asind -> Mandal
+BR-MO/2017/26080,UNRESOLVED,,No validated locality/route
+BR-MO/2017/28082,DRY_RUN_RESOLVED,ROUTE,Bhawanipatna -> Koksara
+BR-MO/2017/30088,UNRESOLVED,,No validated locality/route
+BR-MO/2017/30090,DRY_RUN_RESOLVED,ROUTE,Bolangir -> Sonepur
+BR-MO/2017/36167,UNRESOLVED,,No validated locality/route
+BR-MO/2017/36172,UNRESOLVED,,No validated locality/route
+BR-MO/2017/37174,DRY_RUN_RESOLVED,ROUTE,Manendragarh -> Ambikapur
+BR-MO/2017/37178,DRY_RUN_RESOLVED,ROUTE,Sahapura -> Alwar
+BR-MO/2017/38180,UNRESOLVED,,No validated locality/route
+BR-MO/2017/40216,UNRESOLVED,,No validated locality/route
+BR-MO/2017/40218,UNRESOLVED,,No validated locality/route
+BR-MO/2017/40238,DRY_RUN_RESOLVED,BYPASS,Kuchinda
+BR-MO/2017/40239,DRY_RUN_RESOLVED,BYPASS,Rameshwaram
+BR-MO/2017/40240,DRY_RUN_RESOLVED,BYPASS,Thiruvaiyaru
+BR-MO/2017/40241,UNRESOLVED,,No validated locality/route
+BR-MO/2017/40243,DRY_RUN_RESOLVED,LOCALITY,Usilampatti
+BR-MO/2017/40245,DRY_RUN_RESOLVED,LOCALITY,Bodi
+BR-MO/2017/42271,UNRESOLVED,,No validated locality/route
+BR-MO/2018/45302,UNRESOLVED,,No validated locality/route
+BR-MO/2018/46316,DRY_RUN_RESOLVED,LOCALITY,Tenkasi
+BR-MO/2018/49361,UNRESOLVED,,No validated locality/route
+BR-MO/2018/50372,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51379,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51442,DRY_RUN_RESOLVED,BYPASS,Bhagalpur
+BR-MO/2018/51453,DRY_RUN_RESOLVED,BYPASS,Hoshiarpur
+BR-MO/2018/51463,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51466,DRY_RUN_RESOLVED,LOCALITY,chapra
+BR-MO/2018/51473,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51474,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51475,DRY_RUN_RESOLVED,BYPASS,Bada malhera
+BR-MO/2018/51476,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51479,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51483,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51484,DRY_RUN_RESOLVED,BYPASS,sagar
+BR-MO/2018/51485,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51486,DRY_RUN_RESOLVED,BYPASS,chhatarpur
+BR-MO/2018/51487,DRY_RUN_RESOLVED,BYPASS,Harpalpur
+BR-MO/2018/51495,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51518,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51523,DRY_RUN_RESOLVED,ROUTE,Pachore -> Shujalpur
+BR-MO/2018/51542,DRY_RUN_RESOLVED,LOCALITY,Khushalpur
+BR-MO/2018/51546,UNRESOLVED,,No validated locality/route
+BR-MO/2018/51551,DRY_RUN_RESOLVED,ROUTE,Birpur -> Bihpur
+BR-MO/2018/51554,UNRESOLVED,,No validated locality/route
+BR-MO/2018/52568,UNRESOLVED,,No validated locality/route
+BR-MO/2018/53575,UNRESOLVED,,No validated locality/route
+BR-MO/2018/53581,UNRESOLVED,,No validated locality/route
+BR-MO/2018/53590,UNRESOLVED,,No validated locality/route
+BR-MO/2018/53592,UNRESOLVED,,No validated locality/route
+BR-MO/2018/53594,DRY_RUN_RESOLVED,ROUTE,Ashapur -> Harda
+BR-MO/2018/53601,DRY_RUN_RESOLVED,BYPASS,Rohat
+BR-MO/2018/53603,DRY_RUN_RESOLVED,ROUTE,Maksudangarh -> Sironj
+BR-MO/2018/53606,DRY_RUN_RESOLVED,ROUTE,Thikri -> Anjad
+BR-MO/2018/53614,UNRESOLVED,,No validated locality/route
+BR-MO/2018/53624,UNRESOLVED,,No validated locality/route
+BR-MO/2018/53625,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54634,DRY_RUN_RESOLVED,ROUTE,Bolangir -> Khorda
+BR-MO/2018/54635,DRY_RUN_RESOLVED,ROUTE,Nayagarh -> Khordha
+BR-MO/2018/54636,DRY_RUN_RESOLVED,LOCALITY,Bolagarh
+BR-MO/2018/54638,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54641,DRY_RUN_RESOLVED,ROUTE,Harike -> Khalra
+BR-MO/2018/54655,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54661,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54694,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54715,DRY_RUN_RESOLVED,ROUTE,Jabalpur -> Bhopal
+BR-MO/2018/54722,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54743,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54756,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54759,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54775,DRY_RUN_RESOLVED,BYPASS,LOHAGHAT
+BR-MO/2018/54788,UNRESOLVED,,No validated locality/route
+BR-MO/2018/54800,UNRESOLVED,,No validated locality/route
+BR-MO/2018/55837,UNRESOLVED,,No validated locality/route
+BR-MO/2018/55882,DRY_RUN_RESOLVED,BYPASS,Ghatol
+BR-MO/2018/55911,UNRESOLVED,,No validated locality/route
+BR-MO/2018/56933,UNRESOLVED,,No validated locality/route
+BR-MO/2018/56939,DRY_RUN_RESOLVED,ROUTE,in Kottar -> Chettikulam
+BR-MO/2018/56943,DRY_RUN_RESOLVED,LOCALITY,chapra
+BR-MO/2018/56976,DRY_RUN_RESOLVED,ROUTE,Pandariya -> Pondi
+BR-MO/2018/57017,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57095,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57126,DRY_RUN_RESOLVED,BYPASS,NORTH WESTERN
+BR-MO/2018/57153,DRY_RUN_RESOLVED,ROUTE,Garhshankar -> Naina Devi
+BR-MO/2018/57157,DRY_RUN_RESOLVED,ROUTE,Birpur -> Bihpur
+BR-MO/2018/57160,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57164,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57166,DRY_RUN_RESOLVED,ROUTE,Budhlada -> Ratia
+BR-MO/2018/57169,DRY_RUN_RESOLVED,BYPASS,Bagalur
+BR-MO/2018/57170,DRY_RUN_RESOLVED,BYPASS,Pratapgarh
+BR-MO/2018/57171,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57174,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57176,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57202,DRY_RUN_RESOLVED,LOCALITY,Phaphamau
+BR-MO/2018/57203,DRY_RUN_RESOLVED,ROUTE,Losari -> Machavaram
+BR-MO/2018/57211,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57218,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57223,UNRESOLVED,,No validated locality/route
+BR-MO/2018/57224,UNRESOLVED,,No validated locality/route

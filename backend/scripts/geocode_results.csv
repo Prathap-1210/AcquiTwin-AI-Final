@@ -1,0 +1,201 @@
+project_id,status,query,latitude,longitude,location,reason
+BR-MO/2017/22059,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/24065,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/26080,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/28082,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/30088,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/30090,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/34119,DRY_RUN_RESOLVED,"Barmer, Rajasthan, India",25.5814853,71.1924922,"Barmer, Rajasthan, India",
+BR-MO/2017/36167,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/36172,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/37174,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/37178,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/38180,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40216,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40218,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40238,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40239,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40240,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40241,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40242,DRY_RUN_RESOLVED,"Madurai, Tamil Nadu, India",9.9261153,78.1140983,"Madurai, Madurai South, Madurai, Tamil Nadu, India",
+BR-MO/2017/40243,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40244,DRY_RUN_RESOLVED,"Theni, Tamil Nadu, India",9.8692558,77.4222974,"Theni, Tamil Nadu, India",
+BR-MO/2017/40245,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/42271,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/45302,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/46316,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/47341,DRY_RUN_RESOLVED,"Tiruvannamalai, Tamil Nadu, India",12.4289282,78.99915,"Tiruvannamalai, Tamil Nadu, India",
+BR-MO/2018/49361,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/50372,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51379,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51412,DRY_RUN_RESOLVED,"Vellore, Tamil Nadu, India",12.9021849,79.061104,"Vellore, Tamil Nadu, India",
+BR-MO/2018/51442,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51453,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51463,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51466,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51473,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51474,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51475,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51476,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51479,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51483,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51484,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51485,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51486,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51487,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51495,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51518,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51523,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51532,DRY_RUN_RESOLVED,"Kalahandi, Odisha, India",19.8265757,83.0408702,"Kalahandi, Odisha, India",
+BR-MO/2018/51542,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51546,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51551,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51554,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/52568,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53575,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53581,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53590,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53592,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53594,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53601,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53603,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53606,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53614,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53624,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53625,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54634,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54635,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54636,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54637,DRY_RUN_RESOLVED,"Khordha, Odisha, India",20.0538149,85.5023308,"Khordha, Odisha, India",
+BR-MO/2018/54638,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54641,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54655,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54661,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54694,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54715,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54722,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54743,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54756,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54759,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54775,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54788,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54800,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/55837,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/55882,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/55911,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/56933,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/56935,DRY_RUN_RESOLVED,"Vellore, Tamil Nadu, India",12.9021849,79.061104,"Vellore, Tamil Nadu, India",
+BR-MO/2018/56939,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/56943,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/56951,DRY_RUN_RESOLVED,"West Champaran, Bihar, India",27.0518367,84.3351209,"West Champaran, Bihar, India",
+BR-MO/2018/56952,DRY_RUN_RESOLVED,"West Champaran, Bihar, India",27.0518367,84.3351209,"West Champaran, Bihar, India",
+BR-MO/2018/56976,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57017,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57039,DRY_RUN_RESOLVED,"Kangra, Himachal Pradesh, India",32.0768665,76.2985872,"Kangra, Himachal Pradesh, India",
+BR-MO/2018/57044,DRY_RUN_RESOLVED,"Kuchinda, Odisha, India",21.7477388,84.3506401,"Kuchinda, Kochinda, Sambalpur, Odisha, 768222, India",
+BR-MO/2018/57055,DRY_RUN_RESOLVED,"Churu, Rajasthan, India",28.2047781,74.6912996,"Churu, Rajasthan, India",
+BR-MO/2018/57069,DRY_RUN_RESOLVED,"Jaipur, Rajasthan, India",26.9154576,75.8189817,"Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+BR-MO/2018/57095,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57126,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57153,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57157,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/22059,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/24065,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/26080,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/28082,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/30088,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/30090,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/34119,RESOLVED,"Barmer, Rajasthan, India",25.5814853,71.1924922,"Barmer, Rajasthan, India",
+BR-MO/2017/36167,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/36172,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/37174,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/37178,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/38180,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40216,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40218,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40238,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40239,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40240,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40241,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40242,RESOLVED,"Madurai, Tamil Nadu, India",9.9261153,78.1140983,"Madurai, Madurai South, Madurai, Tamil Nadu, India",
+BR-MO/2017/40243,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/40244,RESOLVED,"Theni, Tamil Nadu, India",9.8692558,77.4222974,"Theni, Tamil Nadu, India",
+BR-MO/2017/40245,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2017/42271,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/45302,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/46316,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/47341,RESOLVED,"Tiruvannamalai, Tamil Nadu, India",12.4289282,78.99915,"Tiruvannamalai, Tamil Nadu, India",
+BR-MO/2018/49361,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/50372,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51379,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51412,RESOLVED,"Vellore, Tamil Nadu, India",12.9021849,79.061104,"Vellore, Tamil Nadu, India",
+BR-MO/2018/51442,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51453,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51463,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51466,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51473,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51474,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51475,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51476,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51479,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51483,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51484,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51485,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51486,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51487,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51495,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51518,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51523,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51532,RESOLVED,"Kalahandi, Odisha, India",19.8265757,83.0408702,"Kalahandi, Odisha, India",
+BR-MO/2018/51542,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51546,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51551,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/51554,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/52568,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53575,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53581,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53590,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53592,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53594,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53601,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53603,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53606,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53614,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53624,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/53625,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54634,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54635,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54636,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54637,RESOLVED,"Khordha, Odisha, India",20.0538149,85.5023308,"Khordha, Odisha, India",
+BR-MO/2018/54638,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54641,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54655,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54661,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54694,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54715,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54722,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54743,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54756,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54759,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54775,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54788,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/54800,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/55837,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/55882,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/55911,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/56933,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/56935,RESOLVED,"Vellore, Tamil Nadu, India",12.9021849,79.061104,"Vellore, Tamil Nadu, India",
+BR-MO/2018/56939,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/56943,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/56951,RESOLVED,"West Champaran, Bihar, India",27.0518367,84.3351209,"West Champaran, Bihar, India",
+BR-MO/2018/56952,RESOLVED,"West Champaran, Bihar, India",27.0518367,84.3351209,"West Champaran, Bihar, India",
+BR-MO/2018/56976,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57017,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57039,RESOLVED,"Kangra, Himachal Pradesh, India",32.0768665,76.2985872,"Kangra, Himachal Pradesh, India",
+BR-MO/2018/57044,RESOLVED,"Kuchinda, Odisha, India",21.7477388,84.3506401,"Kuchinda, Kochinda, Sambalpur, Odisha, 768222, India",
+BR-MO/2018/57055,RESOLVED,"Churu, Rajasthan, India",28.2047781,74.6912996,"Churu, Rajasthan, India",
+BR-MO/2018/57069,RESOLVED,"Jaipur, Rajasthan, India",26.9154576,75.8189817,"Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+BR-MO/2018/57095,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57126,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57153,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.
+BR-MO/2018/57157,UNRESOLVED,,,,,Requires both district/locality and state for safe first-pass geocoding.

@@ -1,0 +1,46 @@
+/* Standalone stylesheet: importing it from AddProjectModal.tsx prevents missing-modal-style regressions. */
+.lap-overlay, .lap-overlay * { box-sizing: border-box; }
+.lap-overlay { position: fixed !important; inset: 0 !important; z-index: 2147483000 !important; display: flex !important; align-items: center !important; justify-content: center !important; padding: 22px !important; background: rgba(8, 25, 45, .69) !important; backdrop-filter: blur(5px); }
+.lap-dialog { display: block !important; position: relative !important; width: min(890px, 100%) !important; max-height: min(93dvh, 960px) !important; margin: auto !important; overflow: auto !important; border: 1px solid #d5e4ef !important; border-radius: 20px !important; background: #fff !important; box-shadow: 0 30px 110px #031c3b80 !important; color: #173655 !important; font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif !important; }
+.lap-dialog::before { content: ""; display: block; height: 5px; background: linear-gradient(90deg, #e98523 0 33%, #f5f7fb 33% 66%, #17804a 66% 100%); }
+.lap-header { display: flex !important; justify-content: space-between; align-items: flex-start; gap: 20px; padding: 23px 29px 21px; background: linear-gradient(115deg, #fff7ec, #fff 52%, #f0faf4); border-bottom: 1px solid #e2eaf0; }
+.lap-heading { min-width: 0; }
+.lap-eyebrow { display: inline-flex; align-items: center; gap: 7px; font-size: 10px; letter-spacing: 1.6px; font-weight: 800; color: #a45516; }
+.lap-eyebrow-dot { width: 7px; height: 7px; border-radius: 50%; background: #e98730; }
+.lap-header h2 { margin: 8px 0 5px !important; font-size: clamp(21px, 3vw, 27px) !important; font-weight: 800 !important; letter-spacing: -.8px; line-height: 1.2; color: #102e4e !important; }
+.lap-header p { margin: 0 !important; color: #60768a !important; font-size: 12px !important; line-height: 1.55; }
+.lap-close { flex: 0 0 36px; width: 36px; height: 36px; border: 1px solid #d5e3ee !important; border-radius: 10px; background: #fff !important; color: #39536a !important; font-size: 25px; line-height: 1; cursor: pointer; }
+.lap-close:hover { background: #f1f6fb !important; }
+.lap-form { display: block !important; margin: 0 !important; padding: 0 29px 24px !important; }
+.lap-section { padding: 19px 0 21px; border-bottom: 1px solid #e5edf3; }
+.lap-section-heading { display: flex; align-items: center; gap: 11px; margin-bottom: 15px; }
+.lap-step { display: grid; place-items: center; flex: 0 0 29px; height: 29px; border: 1px solid #bdd7ef; border-radius: 8px; color: #1b65a7; background: #eaf4fd; font-weight: 800; font-size: 11px; }
+.lap-section-heading h3 { margin: 0 !important; color: #173a5e !important; font-size: 14px !important; line-height: 1.3; font-weight: 800; }
+.lap-section-heading p { margin: 3px 0 0 !important; color: #718498 !important; font-size: 11px !important; line-height: 1.35; }
+.lap-grid { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 13px 18px !important; }
+.lap-field { display: flex !important; flex-direction: column !important; align-items: stretch !important; gap: 7px !important; min-width: 0 !important; margin: 0 !important; color: #284966 !important; font-size: 12px !important; font-weight: 700 !important; text-align: left !important; }
+.lap-field span { color: #284966 !important; }
+.lap-field em { color: #c04b29; font-style: normal; }
+.lap-field input, .lap-field select, .lap-field textarea { display: block !important; width: 100% !important; height: 42px !important; min-height: 42px !important; min-width: 0 !important; margin: 0 !important; padding: 9px 12px !important; border: 1px solid #cad9e7 !important; border-radius: 9px !important; background: #fbfdff !important; color: #173656 !important; font-family: inherit !important; font-size: 12px !important; font-weight: 500 !important; box-shadow: none !important; }
+.lap-field select { appearance: auto !important; padding-right: 10px !important; cursor: pointer; }
+.lap-field input::placeholder, .lap-field textarea::placeholder { color: #98a8b8 !important; }
+.lap-field textarea { resize: vertical !important; height: auto !important; min-height: 85px !important; line-height: 1.5 !important; }
+.lap-field input:focus-visible, .lap-field select:focus-visible, .lap-field textarea:focus-visible { outline: 2px solid #3f91d0 !important; outline-offset: 1px; background: #fff !important; }
+.lap-full { grid-column: 1 / -1; }
+.lap-remaining { display: flex; flex-direction: column; gap: 4px; padding: 9px 13px; justify-content: center; min-height: 65px; border: 1px solid #b9dfc8; border-radius: 9px; background: #f1fbf5; }
+.lap-remaining span { color: #486a58; font-size: 11px; font-weight: 700; }
+.lap-remaining strong { color: #157443; font-size: 19px; font-weight: 800; line-height: 1.2; }
+.lap-remaining small { color: #71897a; font-size: 10px; }
+.lap-error { margin: 14px 0 0 !important; padding: 11px 13px; color: #a72b35 !important; background: #fff0f0; border: 1px solid #e9afb6; border-radius: 9px; font-size: 12px !important; }
+.lap-footer { display: flex !important; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; padding-top: 20px; }
+.lap-footer p { margin: 0 !important; color: #718597 !important; font-size: 11px !important; }
+.lap-footer p span { color: #188251; font-size: 9px; }
+.lap-actions { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.lap-actions button { min-height: 40px; padding: 10px 19px !important; border-radius: 9px !important; font-family: inherit; font-size: 12px !important; font-weight: 800 !important; cursor: pointer; }
+.lap-cancel { border: 1px solid #cddbe7 !important; background: #fff !important; color: #3e5970 !important; }
+.lap-cancel:hover { background: #f3f8fc !important; }
+.lap-save { border: 1px solid #147241 !important; color: #fff !important; background: linear-gradient(110deg, #18844e, #0e613e) !important; box-shadow: 0 4px 11px #0d714032; }
+.lap-save:hover:not(:disabled) { background: #0b5834 !important; }
+.lap-actions button:disabled, .lap-close:disabled { opacity: .55; cursor: wait; }
+@media (max-width: 640px) { .lap-overlay { padding: 8px !important; } .lap-dialog { max-height: 97dvh !important; border-radius: 14px !important; } .lap-header { padding: 17px 17px 15px; } .lap-form { padding: 0 17px 17px !important; } .lap-grid { grid-template-columns: 1fr !important; gap: 12px !important; } .lap-full { grid-column: auto; } .lap-footer { align-items: stretch; } .lap-footer p { width: 100%; } .lap-actions { width: 100%; } .lap-actions button { flex: 1; } }
+@media (prefers-reduced-motion: reduce) { .lap-overlay { backdrop-filter: none; } }

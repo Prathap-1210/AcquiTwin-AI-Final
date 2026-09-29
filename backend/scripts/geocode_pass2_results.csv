@@ -1,0 +1,101 @@
+project_id,status,method,start_location,end_location,locality,latitude,longitude,state,note
+BR-MO/2017/22059,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/24065,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/26080,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/28082,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/30088,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/30090,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/36167,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/36172,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/37174,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/37178,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/38180,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/40216,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/40218,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/40238,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/40239,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,Rameshwaram,9.2844657,79.3125553,Tamil Nadu,
+BR-MO/2017/40240,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,Thiruvaiyaru,10.8797198,79.1039298,Tamil Nadu,
+BR-MO/2017/40241,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/40243,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/40245,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2017/42271,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/45302,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/46316,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/49361,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/50372,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51379,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51442,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,Bhagalpur,25.2861354,87.1304229,Bihar,
+BR-MO/2018/51453,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,Hoshiarpur,31.6092942,75.8459754,Punjab,
+BR-MO/2018/51463,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51466,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51473,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51474,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51475,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,Bada malhera,24.5626881,79.3071806,Madhya Pradesh,
+BR-MO/2018/51476,DRY_RUN_RESOLVED,ROUTE_ENDPOINTS,sagar,khurai -bina,,23.97422935,78.50429205,Madhya Pradesh,
+BR-MO/2018/51479,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51483,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51484,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,sagar,23.8083076,78.758254,Madhya Pradesh,
+BR-MO/2018/51485,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51486,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,chhatarpur,24.7606089,79.6781776,Madhya Pradesh,
+BR-MO/2018/51487,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51495,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51518,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51523,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51542,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51546,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/51551,DRY_RUN_RESOLVED,ROUTE_ENDPOINTS,Birpur,Bihpur,,25.46057785,86.5161231,Bihar,
+BR-MO/2018/51554,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/52568,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53575,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53581,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53590,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53592,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53594,DRY_RUN_RESOLVED,ROUTE_ENDPOINTS,Ashapur,Harda,,22.0743541,76.90680695,Madhya Pradesh,
+BR-MO/2018/53601,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53603,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53606,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53614,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53624,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/53625,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54634,DRY_RUN_RESOLVED,ROUTE_ENDPOINTS,Bolangir,Khorda,,20.4576784,84.4353031,Odisha,
+BR-MO/2018/54635,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54636,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54638,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54641,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54655,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54661,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54694,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54715,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54722,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54743,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54756,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54759,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54775,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,LOHAGHAT,29.4056017,80.115354,Uttarakhand,
+BR-MO/2018/54788,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/54800,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/55837,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/55882,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,Ghatol,23.7570852,74.4124702,Rajasthan,
+BR-MO/2018/55911,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/56933,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/56939,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/56943,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/56976,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57017,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57095,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57126,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57153,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57157,DRY_RUN_RESOLVED,ROUTE_ENDPOINTS,Birpur,Bihpur,,25.46057785,86.5161231,Bihar,
+BR-MO/2018/57160,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57164,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57166,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57169,DRY_RUN_RESOLVED,BYPASS_LOCALITY,,,Bagalur,12.8310442,77.865842,Tamil Nadu,
+BR-MO/2018/57170,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57171,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57174,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57176,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57202,DRY_RUN_RESOLVED,NAMED_LOCALITY,,,Phaphamau,25.5288334,81.856318,Uttar Pradesh,
+BR-MO/2018/57203,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57211,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57218,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57223,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
+BR-MO/2018/57224,UNRESOLVED,,,,,,,,No reliable project-name GIS evidence
