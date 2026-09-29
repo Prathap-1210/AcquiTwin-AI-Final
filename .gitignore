@@ -101,3 +101,7 @@ backend/uploads/
 
 # Local Netlify folder
 .netlify
+
+frontend/.env
+backend/.env
+backend/scripts/.geocode_cache/

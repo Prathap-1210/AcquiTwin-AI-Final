@@ -882,19 +882,26 @@ const allProjects = response.projects;
 
 
 
-  const normalizedActiveProjectSearch = activeProjectSearch.trim().toLocaleLowerCase();
+  const normalizedActiveProjectSearch =
+  activeProjectSearch.trim().toLocaleLowerCase();
 
-  const activeProjectOptions = projects.filter((project) =>
-
-    project.id === selectedId ||
-
-    normalizedActiveProjectSearch.length === 0 ||
-
-    [project.project_id, project.project_name, project.state, project.district]
-
-      .some((value) => (value ?? "").toLocaleLowerCase().includes(normalizedActiveProjectSearch)),
-
-  );
+const activeProjectOptions =
+  normalizedActiveProjectSearch.length === 0
+    ? []
+    : projects
+        .filter((project) =>
+          [
+            project.project_id,
+            project.project_name,
+            project.state,
+            project.district,
+          ].some((value) =>
+            (value ?? "")
+              .toLocaleLowerCase()
+              .includes(normalizedActiveProjectSearch),
+          ),
+        )
+        .slice(0, 12);
 
 
 
@@ -1215,50 +1222,72 @@ const allProjects = response.projects;
           <div className="topbar-actions">
 
             {projects.length > 0 && (
+  <div className="global-project-switch">
+    <span>Active project</span>
 
-              <label className="global-project-switch">
+    <div className="active-project-search-wrap">
+      <input
+        type="search"
+        aria-label="Search active projects"
+        placeholder="Search project, ID, state or district"
+        value={activeProjectSearch}
+        onChange={(event) =>
+          setActiveProjectSearch(event.target.value)
+        }
+        autoComplete="off"
+      />
 
-                <span>Active project</span>
+      {activeProjectSearch.trim().length > 0 && (
+        <div className="active-project-suggestions">
+          {activeProjectOptions.length > 0 ? (
+            activeProjectOptions.map((project) => (
+              <button
+                key={project.id}
+                type="button"
+                className="active-project-suggestion"
+                onClick={() => {
+                  setSelectedId(project.id);
+                  setActiveProjectSearch("");
+                }}
+              >
+                <strong>{project.project_id}</strong>
 
-                <input
+                <span>
+                  {project.project_name}
+                </span>
 
-                  type="search"
+                <small>
+                  {[project.district, project.state]
+                    .filter(Boolean)
+                    .join(", ")}
+                </small>
+              </button>
+            ))
+          ) : (
+            <div className="active-project-no-result">
+              No matching projects found.
+            </div>
+          )}
+        </div>
+      )}
+    </div>
 
-                  aria-label="Search active projects"
-
-                  placeholder="Search project or state"
-
-                  value={activeProjectSearch}
-
-                  onChange={(event) => setActiveProjectSearch(event.target.value)}
-
-                />
-
-                <select
-
-                  aria-label="Select active project"
-
-                  value={selectedId ?? ""}
-
-                  onChange={(event) => setSelectedId(Number(event.target.value))}
-
-                >
-
-                  {activeProjectOptions.map((project) => (
-
-                    <option key={project.id} value={project.id}>
-
-                      {project.project_id} - {project.project_name.slice(0, 90)}
-
-                    </option>
-
-                  ))}
-
-                </select>
-
-              </label>
-
-            )}
+    <select
+      aria-label="Select active project"
+      value={selectedId ?? ""}
+      onChange={(event) => {
+        setSelectedId(Number(event.target.value));
+        setActiveProjectSearch("");
+      }}
+    >
+      {projects.map((project) => (
+        <option key={project.id} value={project.id}>
+          {project.project_id} - {project.project_name.slice(0, 90)}
+        </option>
+      ))}
+    </select>
+  </div>
+)}
 
             <button
 
