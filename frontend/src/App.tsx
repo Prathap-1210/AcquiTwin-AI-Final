@@ -226,25 +226,6 @@ const PAGE_NAV: {
 
   },
 
-  {
-
-    page: "settings",
-
-    label: "Settings",
-
-    description: "Display preferences",
-
-  },
-
-  {
-
-    page: "account",
-
-    label: "Account",
-
-    description: "Session information",
-
-  },
 
 ];
 

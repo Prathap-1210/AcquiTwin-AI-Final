@@ -98,3 +98,6 @@ docs/ml/
 
 # Runtime uploaded documents
 backend/uploads/
+
+# Local Netlify folder
+.netlify
