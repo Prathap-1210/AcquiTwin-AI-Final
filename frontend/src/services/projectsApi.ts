@@ -2,8 +2,24 @@
 // LAND ACQUISITION AI — API SERVICE
 // ============================================================
 
-// Local development backend
-const API_URL = "http://127.0.0.1:8000";
+// ============================================================
+// API BASE URL
+// ============================================================
+
+const RAW_API_URL =
+  import.meta.env.VITE_API_BASE_URL?.trim() ||
+  "http://127.0.0.1:8000";
+
+// Existing API functions already append paths such as:
+// /api/v1/projects
+//
+// Therefore, if VITE_API_BASE_URL ends with "/api",
+// remove that final "/api" here to avoid:
+// /api/api/v1/projects
+
+const API_URL = RAW_API_URL
+  .replace(/\/+$/, "")
+  .replace(/\/api$/i, "");
 
 // ============================================================
 // PROJECT TYPES
