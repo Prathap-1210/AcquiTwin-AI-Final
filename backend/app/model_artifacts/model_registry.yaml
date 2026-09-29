@@ -1,0 +1,15 @@
+version: 1
+
+project_delay:
+  classifier:
+    file: project_delay/best_model.joblib
+
+  delay_days:
+    file: project_delay/delay_days_best_model.joblib
+
+  metadata:
+    file: project_delay/feature_metadata.json
+
+stage_delay:
+  classifier:
+    file: stage_delay/stage_delay_classifier.joblib

@@ -8,7 +8,7 @@ from typing import Any
 import joblib
 import numpy as np
 import pandas as pd
-
+from app.services.model_registry import get_model_path
 
 # ============================================================
 # PATHS
@@ -24,22 +24,19 @@ MODEL_ROOT = Path(
 ).expanduser().resolve()
 
 
-CLASSIFIER_MODEL_FILE = (
-    MODEL_ROOT
-    / "project_delay"
-    / "best_model.joblib"
+CLASSIFIER_MODEL_FILE = get_model_path(
+    "project_delay",
+    "classifier",
 )
 
-DELAY_MODEL_FILE = (
-    MODEL_ROOT
-    / "project_delay"
-    / "delay_days_best_model.joblib"
+DELAY_MODEL_FILE = get_model_path(
+    "project_delay",
+    "delay_days",
 )
 
-FEATURE_METADATA_FILE = (
-    MODEL_ROOT
-    / "project_delay"
-    / "feature_metadata.json"
+FEATURE_METADATA_FILE = get_model_path(
+    "project_delay",
+    "metadata",
 )
 
 

@@ -1,34 +1,30 @@
-import os
 from functools import lru_cache
-from pathlib import Path
 
 import joblib
 import pandas as pd
 
 from app.schemas.stage_delay import StageDelayRequest
+from app.services.model_registry import get_model_path
 
 
-APP_DIR = Path(__file__).resolve().parents[1]
+# ============================================================
+# MODEL LOCATION
+# ============================================================
 
-MODEL_ROOT = Path(
-    os.getenv(
-        "ACQUITWIN_MODEL_DIR",
-        str(APP_DIR / "model_artifacts"),
-    )
-).expanduser().resolve()
-
-
-MODEL_PATH = (
-    MODEL_ROOT
-    / "stage_delay"
-    / "stage_delay_classifier.joblib"
+MODEL_PATH = get_model_path(
+    "stage_delay",
+    "classifier",
 )
 
 
+# ============================================================
+# MODEL INPUT FEATURES
+# ============================================================
+
 FEATURES = [
     "current_stage",
-    "state",
     "stage_index",
+    "state",
     "paf_count",
     "area",
     "open_litigations",
@@ -40,40 +36,161 @@ FEATURES = [
 ]
 
 
+# ============================================================
+# HELPERS
+# ============================================================
+
+def _is_git_lfs_pointer(path) -> bool:
+    """
+    Returns True when the .joblib file is only a Git LFS pointer
+    instead of the actual trained model.
+    """
+
+    try:
+        with path.open("rb") as file:
+            beginning = file.read(200)
+
+        return b"git-lfs.github.com/spec/v1" in beginning
+
+    except OSError:
+        return False
+
+
+# ============================================================
+# MODEL LOADER
+# ============================================================
+
 @lru_cache(maxsize=1)
-def load_stage_model():
-    if not MODEL_PATH.is_file():
-        raise FileNotFoundError(
-            f"Stage-delay model not found: {MODEL_PATH}"
+def get_stage_delay_model():
+    """
+    Load the trained stage-delay classifier.
+
+    The model is cached so it is loaded only once while the
+    FastAPI process is running.
+    """
+
+    if not MODEL_PATH.exists():
+        raise RuntimeError(
+            f"Stage-delay classifier not found: {MODEL_PATH}"
         )
 
-    return joblib.load(MODEL_PATH)
+    if _is_git_lfs_pointer(MODEL_PATH):
+        raise RuntimeError(
+            "Stage-delay classifier is only a Git LFS pointer. "
+            f"Replace it with the real trained model: {MODEL_PATH}"
+        )
+
+    try:
+        model = joblib.load(MODEL_PATH)
+
+    except Exception as exc:
+        raise RuntimeError(
+            f"Unable to load stage-delay classifier: {MODEL_PATH}"
+        ) from exc
+
+    return model
 
 
-def predict_stage_delay(payload: StageDelayRequest):
-    model = load_stage_model()
+# ============================================================
+# INPUT PREPARATION
+# ============================================================
 
-    inputs = payload.model_dump()
+def prepare_stage_delay_features(
+    request: StageDelayRequest,
+) -> pd.DataFrame:
+    """
+    Convert StageDelayRequest into the exact feature DataFrame
+    expected by the stage-delay ML model.
+    """
 
-    frame = pd.DataFrame(
-        [{feature: inputs[feature] for feature in FEATURES}]
+    values = request.model_dump()
+
+    missing_features = [
+        feature
+        for feature in FEATURES
+        if feature not in values
+    ]
+
+    if missing_features:
+        raise ValueError(
+            "Missing stage-delay model features: "
+            + ", ".join(missing_features)
+        )
+
+    row = {
+        feature: values[feature]
+        for feature in FEATURES
+    }
+
+    dataframe = pd.DataFrame(
+        [row],
+        columns=FEATURES,
     )
 
-    # Identify the probability column corresponding to label 1.
-    class_labels = list(model.classes_)
+    return dataframe
 
-    if 1 not in class_labels:
-        raise ValueError(
-            "The stage-delay classifier has no positive class."
+
+# ============================================================
+# PREDICTION
+# ============================================================
+
+def predict_stage_delay(
+    request: StageDelayRequest,
+) -> dict:
+    """
+    Run the stage-delay classifier.
+
+    Returns:
+        stage_delay_probability
+        stage_delay_probability_percent
+        predicted_delay_label
+        classification_threshold
+    """
+
+    model = get_stage_delay_model()
+
+    features = prepare_stage_delay_features(request)
+
+    if not hasattr(model, "predict_proba"):
+        raise RuntimeError(
+            "Stage-delay classifier does not support predict_proba()."
         )
 
-    positive_index = class_labels.index(1)
+    probabilities = model.predict_proba(features)
+
+    # --------------------------------------------------------
+    # Locate probability for positive/delay class.
+    # Usually the classes are [0, 1].
+    # --------------------------------------------------------
+
+    classes = getattr(model, "classes_", None)
+
+    if classes is not None:
+        classes_list = list(classes)
+
+        if 1 in classes_list:
+            positive_index = classes_list.index(1)
+        elif True in classes_list:
+            positive_index = classes_list.index(True)
+        else:
+            positive_index = len(classes_list) - 1
+
+    else:
+        # Normal binary classifier predict_proba output:
+        # [probability_class_0, probability_class_1]
+        positive_index = 1
 
     probability = float(
-        model.predict_proba(frame)[0, positive_index]
+        probabilities[0][positive_index]
     )
 
-    threshold = 0.5
+    # Safety clamp
+    probability = max(
+        0.0,
+        min(1.0, probability),
+    )
+
+    threshold = 0.50
 
     predicted_label = int(
         probability >= threshold
