@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.core.config import settings
+
 
 # ============================================================
 # PROJECT MANAGEMENT
@@ -102,18 +104,32 @@ app = FastAPI(
 # CORS CONFIGURATION
 # ============================================================
 
+frontend_origin = settings.frontend_url.rstrip("/")
+
+allowed_origins = [
+    # Local Vite development
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:5175",
+    "http://localhost:5176",
+
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:5174",
+    "http://127.0.0.1:5175",
+    "http://127.0.0.1:5176",
+
+    # Production frontend from Railway FRONTEND_URL
+    frontend_origin,
+]
+
+# Remove duplicates while preserving order
+allowed_origins = list(
+    dict.fromkeys(allowed_origins)
+)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:5174",
-        "http://localhost:5175",
-        "http://localhost:5176",
-        "http://127.0.0.1:5173",
-        "http://127.0.0.1:5174",
-        "http://127.0.0.1:5175",
-        "http://127.0.0.1:5176",
-    ],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -130,6 +146,7 @@ def root():
         "success": True,
         "message": "AcquiTwin AI API is running.",
         "version": "1.2.0",
+        "environment": settings.app_env,
         "modules": [
             "Project Management",
             "Project Delay Prediction",
@@ -157,6 +174,7 @@ def health():
         "status": "healthy",
         "service": "AcquiTwin AI API",
         "version": "1.2.0",
+        "environment": settings.app_env,
     }
 
 
