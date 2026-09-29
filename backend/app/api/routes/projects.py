@@ -65,6 +65,39 @@ def get_latest_prediction(db, project_id):
         .limit(1)
     ).first()
 
+def get_latest_predictions_for_projects(
+    db,
+    project_ids: list[int],
+):
+    if not project_ids:
+        return {}
+
+    latest_ids = (
+        select(
+            Prediction.project_id,
+            func.max(Prediction.id).label("latest_id"),
+        )
+        .where(
+            Prediction.project_id.in_(project_ids)
+        )
+        .group_by(
+            Prediction.project_id
+        )
+        .subquery()
+    )
+
+    predictions = db.scalars(
+        select(Prediction)
+        .join(
+            latest_ids,
+            Prediction.id == latest_ids.c.latest_id,
+        )
+    ).all()
+
+    return {
+        prediction.project_id: prediction
+        for prediction in predictions
+    }
 
 # ============================================================
 # GET ALL PROJECTS
@@ -72,15 +105,22 @@ def get_latest_prediction(db, project_id):
 
 @router.get("")
 def list_projects(
-    limit: int = Query(default=50, ge=1, le=100),
-    offset: int = Query(default=0, ge=0),
+    limit: int = Query(
+        default=100,
+        ge=1,
+        le=2000,
+    ),
+    offset: int = Query(
+        default=0,
+        ge=0,
+    ),
 ):
     db = SessionLocal()
 
     try:
         total = db.scalar(
             select(func.count(Project.id))
-        )
+        ) or 0
 
         projects = db.scalars(
             select(Project)
@@ -89,13 +129,25 @@ def list_projects(
             .limit(limit)
         ).all()
 
-        results = []
+        project_ids = [
+            project.id
+            for project in projects
+        ]
 
-        for project in projects:
-            latest = get_latest_prediction(db, project.id)
-            results.append(
-                serialize_project(project, latest)
+        latest_predictions = (
+            get_latest_predictions_for_projects(
+                db,
+                project_ids,
             )
+        )
+
+        results = [
+            serialize_project(
+                project,
+                latest_predictions.get(project.id),
+            )
+            for project in projects
+        ]
 
         return {
             "success": True,
@@ -107,7 +159,7 @@ def list_projects(
     finally:
         db.close()
 
-
+        
 # ============================================================
 # CREATE NEW PROJECT
 # ============================================================

@@ -591,27 +591,12 @@ function App() {
 
     try {
 
-      const pageSize = 100;
+      const response = await getProjects(
+  2000,
+  0
+);
 
-      const response = await getProjects(pageSize, 0);
-
-      const allProjects = [...response.projects];
-
-      // Fetch every page so imported Bhoomi Rashi records appear in search
-
-      // and in the active-project selector, not just the first 100 records.
-
-      for (let offset = pageSize; offset < response.total_projects; offset += pageSize * 4) {
-
-        const offsets = [offset, offset + pageSize, offset + pageSize * 2, offset + pageSize * 3]
-
-          .filter((value) => value < response.total_projects);
-
-        const pages = await Promise.all(offsets.map((value) => getProjects(pageSize, value)));
-
-        for (const page of pages) allProjects.push(...page.projects);
-
-      }
+const allProjects = response.projects;
 
       setProjects(allProjects);
 
